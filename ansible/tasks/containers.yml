@@ -8,6 +8,5 @@
   docker_container:
     name: "{{ container_name }}{{ item }}"
     image: "{{ container_image }}"
-    command: "{{ container_command }}"
     state: present
   with_sequence: count=1
