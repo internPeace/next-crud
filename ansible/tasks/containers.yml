@@ -8,5 +8,9 @@
   docker_container:
     name: "{{ container_name }}{{ item }}"
     image: "{{ container_image }}"
-    state: present
+    state: started
+    ports:
+    - "3000:3000"
+    env:
+     MONGO_URI: "mongodb://54.83.246.183/"
   with_sequence: count=1
