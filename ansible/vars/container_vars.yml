@@ -1,0 +1,2 @@
+container_name: next-crud
+container_image: internpeace/next-crud:latest

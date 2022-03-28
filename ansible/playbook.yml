@@ -1,0 +1,8 @@
+---
+- hosts: staging
+  become: true
+  vars_files:
+    - vars/container_vars.yml
+  tasks:
+    - import_tasks: tasks/containers.yml
+    - import_tasks: tasks/docker.yml
