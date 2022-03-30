@@ -1,2 +1,2 @@
 [staging]
-3.87.222.51 ansible_user=ubuntu ansible_connection=ssh 
+54.159.147.21 ansible_user=ubuntu ansible_connection=ssh 
