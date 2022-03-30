@@ -13,5 +13,5 @@
     ports:
     - "3000:3000"
     env:
-     MONGO_URI: "mongodb://54.83.246.183/"
+     MONGO_URI: "mongodb://54.80.208.61/"
   with_sequence: count=1
